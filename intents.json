@@ -1,0 +1,23 @@
+{
+    "intents":[
+        {"tag": "greeting",
+        "patterns": ["Bonjour", "La forme?", "yo", "Salut", "ça roule?"],
+        "responses": ["Salut à vous!Comment puis-je vous aier?", "Hello je suis à votre disposition", "Bienvenue je suis à votre service?",  "Enchanté", "Comment puis-je vous aider?"]
+        },
+        {
+            "tag":"casier",
+            "patterns":["Des infos sur le casier judiciaire", "Comment obtenir son casier?", "Les procedures du casier judicaire", "documents à fournir pour le casier", "casier judicaire", "casier"],
+            "responses":["Les pieces à fournir pour le casier judiciaire sont: Extrait de naissance, demande timbrée, 300Frs", "Pour le casier judicaire il faut une demande timbrée, une somme de 300frs et un extrait de naissance"]
+        },
+        {
+            "tag":"légalisation",
+            "patterns":["Comment faire une légalisation?", "Je veux une legalisation de mes documents", "obtenir une légalisation", "documents à fournir pour légaliser", "Comment faire une legalisation?", "Comment legaliser?", "Comment légaliser?", "legalisation", "légaliser", "legaliser"],
+            "responses":["Pour une légalisation il vous faudra le document original, un timbre et une copie de ce dernier", "Il vous faudra un l'original du document et de sa copie et  d'un timbre authentique" ]
+        },
+        {
+            "tag":"passeport",
+            "patterns":["Comment faire son passeport?", "passeport", "passport","informations sur le passeport", "documents à fournir pour avoir un passeport burkinabè", "Comment faire son passeport?"],
+            "responses":[" Il vous faut vous rendre au service de passport avec les piéces suivantes:  Une copie légalisée de la Carte Nationale d’Identité Burkinabé, Un certificat de Nationalité Burkinabé, Un Casier Judicaire,trois (03) photos d’identité, format passeport, Un timbre de 200 francs CFA, Une somme de 50.000 francs CFA, Pour les enfants mineurs joindre une autorisation parentale,Pour les commerçants joindre un registre de commerce, Pour les élèves et étudiants joindre le certificat de scolarité ou une copie de la carte d’étudiant, Pour les fonctionnaires et autres professions, joindre un document attestant de la qualité de ses fonctions"]
+        }
+]
+}
